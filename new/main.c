@@ -9,8 +9,8 @@
 #define STAR_MAX_PIXEL 150
 #define MAX_STARS 100
 #define SKIP_PIXELS 2
-#define LENGTH 1280
-#define BREADTH 1024
+#define LENGTH 4
+#define BREADTH 4
 
 // short arr_in_img[BREADTH][LENGTH] = {{0}};
 
