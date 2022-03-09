@@ -15,6 +15,7 @@
 // short arr_in_img[BREADTH][LENGTH] = {{0}};
 
 char datafile[35], cenfile[35];
+int tot_stars=0;
  	//void regionGrowth()
 	unsigned short star_num = 0;
 	unsigned short x_sum[MAX_STARS] = {0};
