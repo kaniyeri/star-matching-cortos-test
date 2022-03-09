@@ -83,11 +83,6 @@ void regionGrowth(short arr_out_img[BREADTH + 2][LENGTH + 2], double centroids_s
 			CORTOS_INFO("%.6f,%.6f,%.6f\n",centroids_st[k][0],centroids_st[k][1],centroids_st[k][2]);		
 		}
 	}
-		for(i = 0; i < MAX_STARS; i++)
-	{
-		CORTOS_DEBUG(out,"%d, %d, %d, %d \n",x_sum[i],y_sum[i],pixel_sum[i], num_pixels[i]);
-		
-	}
 		tot_stars += valid_stars;
 	return;
 }
